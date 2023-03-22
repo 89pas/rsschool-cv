@@ -8,7 +8,7 @@ C, C++, Pyton, JavaScript, HTML5, CSS3.
 
 I am studying at BSUIR in the 2nd year.
 
-English: A2.
+English: A2
 
 ### Contact with me
 
