@@ -5,7 +5,7 @@ CV
 Hi! My name is Protasenia Anna. I’m 19 years old. I am engaged in modeling and self-development. I have a good memory, I easily assimilate information and like to learn something new.
 
 My skills
-C, C++, Pyton, Java, JavaScript, HTML5, CSS3.
+C, C++, Pyton, Java, JavaScript, HTML5, CSS3, BD.
 
 I am studying at BSUIR in the 3nd year.
 
