@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="wrapper">
+                <div class="leftBlock">
+                    <h1>Protasenya Anna</h1>
+                    <h2>Frontend developer</h2>
+                    <div class="info">
+                        <div class="location">
+                            <p>Location</p>
+                            <p>Minsk</p>
+                        </div>
+                        <div class="email">
+                            <p>Email</p>
+                            <p>protasenyaa@icloud.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightBlock">
+                    <nav class="Nav">
+                        <ul class="headerUl">
+                            <li class="headerLi"><a href="#aboutId" class="link">About me</a></li>
+                            <li class="headerLi"><a href="#educationId" class="link">Education</a></li>
+                            <li class="headerLi"><a href="#skillsId" class="link">Skills</a></li>
+                            <li class="headerLi"><a href="#contactsId" class="link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <img src="assets/img/photo_2024-01-26_20-41-14.jpg" alt="foto" class="foto">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="twoColumns">
+                    <section class="about" id="aboutId">
+                        <div class="leftColumn">
+                            <h2>About me</h2>
+                        </div>
+                        <div class="rightColumn">
+                            <p>As a student, I try to develop in the IT field. I am doing an internship at GB soft. At
+                                the
+                                same time, I am studying a foreign language. I have an analytical mind and a good
+                                memory. I quickly absorb information and learn easily.</p>
+                        </div>
+                    </section>
+                    <section class="codeEx">
+                        <div class="codeExample">
+                            <pre><code>
+                            document.addEventListener("DOMContentLoaded", function () {
+                            document.getElementById("burger").addEventListener("click", function () {
+                              document.querySelector(".header").classList.toggle("open")
+                              document.body.classList.toggle("_lock")
+                            })
+                          })
+                          
+                          var burgerMenu = document.getElementById('burger');
+                          var overlay = document.getElementById('menu');
+                          
+                          overlay.addEventListener('click', function (e) {
+                            if (e.target.matches('a')) {
+                              document.querySelector(".header").classList.remove("open")
+                              document.body.classList.remove("_lock")
+                            }
+                          });</code></pre>
+                        </div>
+                        <div class="aboutCode">
+                            <h2>Code example</h2>
+                        </div>
+                    </section>
+                    <section class="skills" id="skillsId">
+                        <div class="skillsBlock">
+                            <h2>My skills</h2>
+                        </div>
+                        <div class="mySkills">
+                            <ul class="skillsUl">
+                                <li class="skillsLi">HTML</li>
+                                <li class="skillsLi">CSS</li>
+                                <li class="skillsLi">JS</li>
+                                <li class="skillsLi">Java</li>
+                                <li class="skillsLi">C/C++</li>
+                                <li class="skillsLi">Pyton</li>
+                                <li class="skillsLi">BD</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="projects">
+                        <div class="myProjects">
+                            <p>I don’t have full-fledged finished projects yet, but after the course I hope to fill out
+                                this column.</p>
+                        </div>
+                        <div class="projectsBlock">
+                            <h2>My projects</h2>
+                        </div>
+                    </section>
+                    <section class="education" id="educationId">
+                        <div class="educationBlock">
+                            <h2>My education</h2>
+                        </div>
+                        <div class="myEducation">
+                            <div class="university">
+                                <div class="universityTekst">
+                                    <h3>University</h3>
+                                    <a href="https://www.bsuir.by/">BSUIR</a>
+                                </div>
+                                <div class="aboutUniversity">
+                                    <p>4th year BSUIR student majoring in information systems and technologies in
+                                        logistics</p>
+                                </div>
+                            </div>
+                            <div class="english">
+                                <div class="myEnglish">
+                                    <h3>English</h3>
+                                </div>
+                                <div class="levelEnglish">
+                                    <p>A2, courses: <a href="https://ulc.by/">Underground Language Club</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <section class="contacts" id="contactsId">
+                    <ul class="contactsList">
+                        <li class="footerLink"><a href="https://vk.com/anyaprotasenya"><img class="vk"
+                                    src="assets/svg/vk.png" alt="vk"></a></li>
+                        <li class="footerLink"><a href="https://github.com/89pas"><img class="git"
+                                    src="assets/svg/git.png" alt="git"></a></li>
+                        <li class="footerLink"><a href="https://www.instagram.com/89pas/?next=%2F"><img class="inst"
+                                    src="assets/svg/inst.png" alt="inst"></a></li>
+                        <li class="footerLink"><a href="https://rs.school/courses/javascript-ru"><img class="cours"
+                                    src="assets/svg/rs-school-logo.svg" alt="cours"></a></li>
+                    </ul>
+                    <h6>2024</h6>
+                </section>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
