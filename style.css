@@ -1,7 +1,220 @@
 body {
-    background-color: rgb(245, 228, 207);
-    color: rgb(24, 22, 22);
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.leftBlock {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.leftBlock h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.leftBlock h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info div {
+    margin-right: 20px;
+}
+
+.rightBlock {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.headerLi {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #a8c2b3;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.main .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twoColumns {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #a8c2b3;
+}
+
+.about,
+.codeEx,
+.skills,
+.projects,
+.education {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.leftColumn,
+.aboutCode,
+.skillsBlock,
+.projectsBlock,
+.educationBlock {
+    width: 35%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.rightColumn,
+.codeExample,
+.mySkills,
+.myProjects,
+.myEducation {
+    width: 65%;
+    padding: 20px;
+}
+
+.codeExample {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow-x: auto;
+    padding: 1em;
+}
+
+.codeExample pre {
+    margin: 0;
+}
+
+.university,
+.english {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.universityTekst,
+.myEnglish {
+    width: 100px;
+}
+
+.aboutUniversity,
+.levelEnglish {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a8c2b3;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #7f9b8a;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contactsList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contactsList li {
+    margin: 0 10px;
+}
+
+.contactsList img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contactsList img:hover {
+    transform: scale(1.1);
+}
+
+h6 {
+    margin-top: 10px;
+    color: #777;
+}
+
+.universityTekst h3{
+    margin: 0;
+    padding-top: 15px;
+}
+
+.levelEnglish{
+    padding-top: 4px;
+}
+
+
